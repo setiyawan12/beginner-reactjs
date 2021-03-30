@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Youtube extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        )
-    }
+const Youtube =()=>{
+    return(
+        <div className="Youtube-Wrapper">
+            <p>Image Here</p>
+            <p>Title Here</p>
+            <p>Desc Here</p>
+        </div>
+    )
 }
+export default Youtube

@@ -8,8 +8,8 @@ import Greet from "./componets/Greet";
 function App() {
   return (
     <BrowserRouter>
-      <Route exact path="/" component={Login} />
-      <Route path='/greet' component={Greet} />
+      <Route exact path='/' component={Greet} />
+      <Route exact path="/Login" component={Login} />
     </BrowserRouter>
   );
 }

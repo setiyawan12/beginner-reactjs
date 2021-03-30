@@ -1,8 +1,9 @@
 import React from 'react'
+import Navbar from '../pages/partials/Navbar'
 
 function Greet(){
     return(
-        <div><p>Hello Yayang Setiyawan</p></div>
+        <Navbar />
     )
 }
 
