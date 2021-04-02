@@ -49,12 +49,14 @@ export default function Navbar({ fixed }) {
                 </p>
               </li>
               <li className="nav-item">
+                <Link to ="/auth">
                 <p
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                   
                 >
-                  <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Pin</span>
+                  <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Login</span>
                 </p>
+                </Link>
               </li>
             </ul>
           </div>
